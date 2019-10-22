@@ -1,0 +1,5 @@
+c = int(input('Wprowadź wartość temperatury w st. Celcjusza: '))
+f = (c*9/5+32)
+k = (c+273,15)
+print(f'Temperatura w stopniach Fahrenheita wynosi: {f}°F')
+print(f'Temperatura w stopniach Kelvina wynosi: {k} Kelwinów')
