@@ -7,6 +7,6 @@ class utwór():
         self.rok = rok
         
     def __str__(self):
-        return 'Wykonawca: ',{}.format(self.wykonawca)/n
+        return 'Wykonawca: ',{}.format(self.wykonawca)/n,
 
         
