@@ -17,6 +17,24 @@ class matrix():
     def print(matrix):
         for row in matrix:
             print(row)
-
-m = matrix.create(4,3)
-matrix.print(m)
+            
+    @staticmethod
+    def creatematrix(y,x):
+        return [[0 for x in range(x)] for y in range(y)]
+    
+    @staticmethod
+    def create_unit(x):
+        macierz = matrix.create(x,x)
+        for i in range(x):
+            macierz[i][i]=1
+        print(macierz)
+        
+    @staticmethod
+    def fill_random(matrix,m,n):
+        import random
+        macierz = matrix
+        for i in range(len(matrix)-1):
+            tab[i]
+        
+        
+matrix.create_unit(5)
